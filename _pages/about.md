@@ -3,6 +3,6 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+I'm a student in the Bachelor of Commerce program at the University of British Columbia, studying a combined major in business and computer science. I am a born and raised Vancouverite, but I'm currently living and working in Toronto as a business systems analyst at CIBC. Previously, I've held a variety of roles in operations, marketing, and sales development. 
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+Outside of my career, I have passions for distance running and for creating music. I'm a pianist and saxophonist by training, and have recently been producing electronic music in several styles. I also love nature, learning languages, and tinkering with projects on the web. 
