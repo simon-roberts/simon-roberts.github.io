@@ -56,7 +56,7 @@ plugins:
 
 author:
   name   : "Simon Roberts"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/simon_suit.png"
   bio    : "Business Systems Analyst Co-op, Musician, and Explorer"
   links:
     - label: "Website"
