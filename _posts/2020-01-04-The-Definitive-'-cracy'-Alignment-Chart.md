@@ -13,3 +13,5 @@ One of the great features of the English language is that many words have suffix
 The 9 elements I've chosen showcase governance structures aligned to the 2-axis lawful/chaotic + good/evil chart seen in Dungeons and Dragons. In this case, good and evil refer to the outcomes seen by subjects of the various governance structures, and lawful and chaotic refer to the centralization/decentralization characteristic of each term.
 
 ![A D&D Alignment Chart Describing Governance Structures](../assets/images/cracy_alignment_chart.png)
+
+![A D&D Alignment Chart Describing Governance Structures]({{simonroberts.xyz}}{{ simonroberts.xyz }}/assets/images/cracy_alignment_chart.png){: .full}
