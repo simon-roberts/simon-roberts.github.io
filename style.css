@@ -2,7 +2,7 @@
 
 body {
   font-family: Arial;
-  font-size: 16px;
+  font-size: 16x;
   line-height: 1.5;
 
   background-color: #ffffff;
@@ -22,15 +22,14 @@ a {
 
 .container {
   width: 100%;
-  max-width: 680px;
-  margin: 0 auto;
+  margin: 10 auto;
 }
 
 /* Header */
 
 .prof-pic {
   border-radius: 50%;
-  width: 120px;
+  width: 30%;
 }
 
 .user-name {
@@ -41,7 +40,7 @@ a {
 
 .user-name a {
   color: #ffffff;
-  font-size: 5rem;
+  font-size: 6rem;
   font-weight: 600;
   font-family: "Karla", Helvetica, sans-serif;
   text-shadow: -4px -4px 0 #000, 2px -2px 0 #000, -2px 1px 0 #000,
@@ -59,12 +58,13 @@ a {
   background-color: #3d3b3c;
   color: #fff;
   text-align: center;
-  font-size: 1rem;
+  font-size: 4rem;
   font-family: "Karla", Helvetica, sans-serif;
   font-weight: 600;
   padding: 15px 0 15px 0;
   margin: 12px 0 11px 0;
   border: 2px solid #3d3b3c;
+  width: 100%;
 }
 
 .link:hover {
@@ -75,6 +75,6 @@ a {
 /* Footer */
 
 footer img {
-  width: 150px;
+  width: 100%;
   padding-top: 40px;
 }
