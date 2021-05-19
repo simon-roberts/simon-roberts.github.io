@@ -267,11 +267,11 @@ h6 {
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 28px;
+    font-size: 40x;
     line-height: 36px;
   }
   #hero h2 {
-    font-size: 18px;
+    font-size: 30px;
     line-height: 24px;
     margin-bottom: 30px;
   }
@@ -988,4 +988,23 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+/*--------------------------------------------------------------
+# iFrame
+--------------------------------------------------------------*/
+
+.iframe-container {
+  overflow: hidden;
+  padding-top: 100%;
+  position: relative;
+}
+
+.iframe-container iframe {
+  border: 0;
+  height: 90%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
