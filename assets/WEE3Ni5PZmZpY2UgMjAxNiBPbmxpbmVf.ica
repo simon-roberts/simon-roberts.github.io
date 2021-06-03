@@ -1,0 +1,145 @@
+[Encoding]
+InputEncoding=UTF8
+
+[WFClient]
+Hotkey10Char=(none)
+HotKey10Shift=(none)
+Hotkey11Char=(none)
+HotKey11Shift=(none)
+Hotkey12Char=(none)
+HotKey12Shift=(none)
+Hotkey13Char=(none)
+HotKey13Shift=(none)
+Hotkey14Char=(none)
+HotKey14Shift=(none)
+Hotkey15Char=(none)
+HotKey15Shift=SHIFT+F3
+Hotkey1Char=(none)
+Hotkey1Shift=(none)
+Hotkey2Char=(none)
+Hotkey2Shift=(none)
+Hotkey3Char=(none)
+Hotkey3Shift=(none)
+Hotkey4Char=F1
+Hotkey4Shift=Ctrl
+Hotkey5Char=(none)
+Hotkey5Shift=(none)
+Hotkey6Char=(none)
+Hotkey6Shift=(none)
+Hotkey7Char=(none)
+Hotkey7Shift=(none)
+Hotkey8Char=(none)
+Hotkey8Shift=(none)
+Hotkey9Char=(none)
+HotKey9Shift=(none)
+ProxyFavorIEConnectionSetting=Yes
+ProxyTimeout=30000
+ProxyType=Auto
+ProxyUseFQDN=Off
+RemoveICAFile=yes
+TransparentKeyPassthrough=Local
+TransportReconnectEnabled=Off
+Version=2
+VirtualCOMPortEmulation=On
+
+[ApplicationServers]
+Office 2016 Online_=
+
+[Office 2016 Online_]
+Address=;40;STA965111117;B5AA0A26BF985EF1E954C3238B3519
+AutologonAllowed=ON
+BrowserProtocol=HTTPonTCP
+CGPSecurityTicket=On
+ClearPassword=7AD9F2326658C7
+ClientAudio=On
+DesiredColor=8
+DesiredHRES=0
+DesiredVRES=0
+Domain=\FAD3DB26D7BF99BC
+DoNotUseDefaultCSL=On
+FontSmoothingType=0
+HDXoverUDP=Off
+HTTPBrowserAddress=!
+InitialProgram=#Office 2016 Online_
+Launcher=WI
+LaunchReference=C298F8A3D12182780DEEF7D8F305B1
+LocHttpBrowserAddress=!
+LogonTicket=7AD9F2326658C7FAD3DB26D7BF99BC
+LogonTicketType=CTXS1
+LongCommandLine=
+LPWD=218
+NRWD=140
+ProxyTimeout=30000
+ProxyType=Auto
+SecureChannelProtocol=Detect
+SessionsharingKey=vVLITqTyWk6vK+X1exybaKrdFaqcvr8Y
+SFRAllowed=Off
+SSLCiphers=all
+SSLEnable=On
+SSLProxyHost=anywhere.cibc.com:443
+startSCD=1622746797089
+Title=Office 2016 Online
+TransportDriver=TCP/IP
+TRWD=0
+TWIMode=On
+WinStationDriver=ICA 3.0
+
+[Compress]
+DriverNameWin16=pdcompw.dll
+DriverNameWin32=pdcompn.dll
+
+[EncRC5-0]
+DriverNameWin16=pdc0w.dll
+DriverNameWin32=pdc0n.dll
+
+[EncRC5-128]
+DriverNameWin16=pdc128w.dll
+DriverNameWin32=pdc128n.dll
+
+[EncRC5-40]
+DriverNameWin16=pdc40w.dll
+DriverNameWin32=pdc40n.dll
+
+[EncRC5-56]
+DriverNameWin16=pdc56w.dll
+DriverNameWin32=pdc56n.dll
+
+[Intelligent Process Automation $P18967]
+ConnectionBar=0
+DesiredHRES=1366
+DesiredVRES=768
+Title=TOCONAV11LZ6XP - SCC
+TWIMode=Off
+
+[Intelligent Process Automation $P18968]
+ConnectionBar=0
+DesiredHRES=1366
+DesiredVRES=768
+Title=TOCONAV11MAHE0 - SCC
+TWIMode=Off
+
+[Intelligent Process Automation $P18969]
+ConnectionBar=0
+DesiredHRES=1366
+DesiredVRES=768
+Title=TOCONAV11MALES - SCC
+TWIMode=Off
+
+[MCC Persistent - Windows 7 Stan $P6498]
+ConnectionBar=0
+DesiredHRES=1366
+DesiredVRES=768
+Title=TOCON7V10XNEVA - MCC
+TWIMode=Off
+
+[MCC Persistent - Windows 7 Stan $P6499]
+ConnectionBar=0
+DesiredHRES=1366
+DesiredVRES=768
+Title=TOCON7V10XNEVG - MCC
+TWIMode=Off
+
+[TrustDesk_Window]
+ScreenPercent=98
+TWIMode=Off
+
