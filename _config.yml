@@ -33,7 +33,6 @@ kramdown:
   syntax_highlighter: rouge
 
 permalink: /blog/:title/
-paginate: false
 timezone: America/Toronto
 
 plugins:
