@@ -1,0 +1,29 @@
+# ---------------------------------------------------------------------------
+# Education and the lists beside it. Each group renders as one column.
+#
+# In each item, `primary` is the bold line and `secondary` the grey line below.
+# `primary` is optional, so leave it out for a plain list with no heading.
+#
+# Not keen on the GPA and GMAT being public? Trim them out of the `secondary`
+# line below and nothing else changes.
+# ---------------------------------------------------------------------------
+
+- label: Education
+  items:
+    - primary: BCom, Business and Computer Science (Honours)
+      secondary: "UBC Sauder School of Business · 2018 to 2023 · Co-op · GPA 86.3%, GMAT 730"
+    - primary: Activities
+      secondary: "Strategy Consulting Mentorship Program · UBC LIFT: Africa · 180 Degrees Consulting"
+
+- label: Technical
+  items:
+    - primary: Analysis
+      secondary: "Python · R · SQL"
+    - primary: Reporting
+      secondary: "BI dashboards and executive reporting"
+    - primary: Engineering
+      secondary: "Data pipelines · Version control · Low-code workflow automation"
+
+- label: Sectors
+  items:
+    - secondary: "Freight rail · Automotive · Energy · Mining · Software · Private equity · Financial services"

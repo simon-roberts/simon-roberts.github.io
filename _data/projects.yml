@@ -1,0 +1,92 @@
+# ---------------------------------------------------------------------------
+# Anonymised case studies.
+#
+# client:   masked descriptor, never a name
+# employer: where you did the work. Optional. Also the place to put something
+#           like "Personal project" if you add your own work here later.
+# outcome:  optional, omit the line entirely if there isn't one to share
+# tags:     methods and tools, rendered as the chips on each card
+# ---------------------------------------------------------------------------
+
+- client: A U.S. transcontinental rail merger
+  employer: Oliver Wyman
+  title: Freight diversion analytics for an $85B proposed transaction
+  summary: >-
+    Contributed across multiple phases of the engagement and led full-cycle data
+    analytics workstreams supporting rail-to-rail and truck-to-rail freight
+    diversion studies, submitted to the Surface Transportation Board.
+  outcome: >-
+    The studies quantified diverted traffic valued north of $4B in support of
+    the proposed transaction.
+  tags: [Python, Freight diversion modelling, Traffic analytics, Data pipelines, Surface Transportation Board]
+
+- client: A U.S. car rental company
+  employer: Oliver Wyman
+  title: Warranty capture across a 400K-vehicle fleet
+  summary: >-
+    Isolated genuinely recoverable warranty spend from data-quality noise across
+    a fleet of roughly 400,000 vehicles, set against a U.S. maintenance base of
+    over $200M.
+  outcome: Identified a $10M warranty capture savings opportunity.
+  tags: [Fleet analytics, Warranty recovery, Data quality, Cost reduction]
+
+- client: A Canadian oil company
+  employer: Oliver Wyman
+  title: Retail fuel demand forecasting and pricing redesign
+  summary: >-
+    Led the modelling behind retail petroleum demand forecasts incorporating
+    vehicle electrification trends, then redesigned pricing to reduce sales
+    cannibalization across site operating models.
+  outcome: Identified $5M+ in annual revenue uplift.
+  tags: [Demand forecasting, EV adoption, Pricing strategy, Scenario modelling]
+
+- client: A compliance software company
+  employer: Oliver Wyman
+  title: Client success turnaround
+  summary: >-
+    Led a turnaround workstream spanning operating model and leadership
+    organization design for the client success function.
+  outcome: Addressed a book of business exceeding $50M in annual renewals.
+  tags: [Operating model, Organization design, Client success, Renewals]
+
+- client: Private equity clients across sectors
+  employer: Oliver Wyman
+  title: Buy-side and sell-side commercial due diligence
+  summary: >-
+    Diligence across software, industrials and consumer. Representative work:
+    SG&A cost benchmarking for a GRC software company; market research and a
+    voice-of-customer campaign for a utility vegetation management firm;
+    Python-based financial and operational modelling for a diesel distributor;
+    market interviews and growth opportunity identification for a concrete
+    company; and competitive landscape and serviceable addressable market
+    analysis for private-capital-markets software.
+  tags: [Buy-side & sell-side DD, SG&A benchmarking, Voice of customer, Python, Market sizing]
+
+- client: U.S. activist investors
+  employer: Templeton Research
+  title: Operational due diligence on management and operations
+  summary: >-
+    Completed subject due diligence assignments across automotive, FMCG, pest
+    control and engineering, surfacing performance improvement opportunities and
+    risks.
+  tags: [Operational due diligence, Management assessment, Automotive, FMCG]
+
+- client: A leading gold mining company
+  employer: KPMG
+  title: Target operating model for a data and analytics team
+  summary: >-
+    Designed a target operating model for a 20-person data and analytics
+    function following a set of stakeholder departures, and recommended Scaled
+    Agile Framework over the alternatives.
+  outcome: >-
+    Streamlined decision-making and strengthened the client's data capabilities.
+  tags: [Target operating model, Data & analytics, Organization design, SAFe]
+
+- client: A leading security technology company
+  employer: KPMG
+  title: Competitive landscape for warehouse management systems
+  summary: >-
+    Scanned six warehouse management systems and twelve autonomous mobile robot
+    providers, then built a purchase criteria matrix for the client's supply
+    chain team.
+  tags: [Competitive landscape, Market research, Warehouse automation, Vendor selection]

@@ -1,0 +1,148 @@
+---
+layout: default
+title: null
+---
+
+<!-- ===================== Hero ===================== -->
+<section class="hero wrap">
+  <div class="hero__grid">
+    <div>
+      <p class="hero__eyebrow">{{ site.author.role }}</p>
+      <h1 class="hero__title">{{ site.author.name }}</h1>
+      <p class="hero__lede">{{ site.data.home.lede }}</p>
+      <div class="actions">
+        <a class="btn btn--primary" href="mailto:{{ site.author.email }}">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2"/><path d="m3 6 9 6.5L21 6"/></svg>
+          Get in touch
+        </a>
+        <a class="btn" href="{{ site.author.linkedin }}" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-.95 1.83-1.95 3.76-1.95C20.4 8.75 21 11 21 14v7h-4v-6.2c0-1.48-.03-3.4-2.07-3.4-2.07 0-2.39 1.62-2.39 3.29V21H9z"/></svg>
+          LinkedIn
+        </a>
+        <a class="btn" href="{{ '/blog/' | relative_url }}">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3.5h9.5L19 8v12.5H5z"/><path d="M8.5 12.5h7M8.5 16h5"/></svg>
+          Writing
+        </a>
+      </div>
+    </div>
+    {%- if site.author.headshot %}
+    <img class="hero__portrait" src="{{ site.author.headshot | relative_url }}"
+         alt="Portrait of {{ site.author.name }}" width="320" height="320">
+    {%- endif %}
+  </div>
+</section>
+
+<!-- ===================== About ===================== -->
+<section class="section wrap" id="about">
+  <p class="section__label">About</p>
+  <div class="prose">
+    {%- for para in site.data.home.about %}
+    <p>{{ para }}</p>
+    {%- endfor %}
+  </div>
+</section>
+
+<!-- ===================== Experience ===================== -->
+<section class="section wrap" id="experience">
+  <p class="section__label">Experience</p>
+  {%- for group in site.data.experience.groups %}
+  {%- if group.sublabel %}<p class="section__sublabel">{{ group.sublabel }}</p>{% endif %}
+  <div class="roles{% if group.compact %} roles--compact{% endif %}">
+    {%- for role in group.items %}
+    <article class="role{% if role.dates %}{% else %} role--undated{% endif %}">
+      {%- if role.dates %}<p class="role__when">{{ role.dates }}</p>{% endif %}
+      <div>
+        <h3 class="role__title">{{ role.title }}</h3>
+        <p class="role__org">{{ role.org }}{% if role.location %}<span class="sep">&middot;</span>{{ role.location }}{% endif %}</p>
+        {%- if role.notes %}
+        <ul class="role__notes">
+          {%- for note in role.notes %}
+          <li>{{ note }}</li>
+          {%- endfor %}
+        </ul>
+        {%- endif %}
+        {%- if role.summary %}<p class="role__summary">{{ role.summary }}</p>{% endif %}
+      </div>
+    </article>
+    {%- endfor %}
+  </div>
+  {%- endfor %}
+</section>
+
+<!-- ===================== Selected work ===================== -->
+<section class="section wrap" id="work">
+  <p class="section__label">Selected work</p>
+  <p class="prose" style="color:var(--ink-soft);margin-bottom:2rem">
+    {{ site.data.home.work_note }}
+  </p>
+  <div class="cases">
+    {%- for c in site.data.projects %}
+    <article class="case">
+      <p class="case__client">{{ c.client }}</p>
+      <h3 class="case__title">{{ c.title }}</h3>
+      <div class="case__body"><p>{{ c.summary }}</p></div>
+      {%- if c.outcome %}
+      <p class="case__outcome">{{ c.outcome }}</p>
+      {%- endif %}
+      <div class="case__foot">
+        {%- if c.tags %}
+        <ul class="tags">
+          {%- for tag in c.tags %}
+          <li class="tag">{{ tag }}</li>
+          {%- endfor %}
+        </ul>
+        {%- endif %}
+        {%- if c.employer %}<p class="case__firm">{{ c.employer }}</p>{% endif %}
+      </div>
+    </article>
+    {%- endfor %}
+  </div>
+</section>
+
+<!-- ===================== Education ===================== -->
+<section class="section wrap" id="education">
+  <p class="section__label">Education &amp; skills</p>
+  <div class="facts">
+    {%- for group in site.data.education %}
+    <div>
+      <p class="fact__label">{{ group.label }}</p>
+      {%- for item in group.items %}
+      <p class="fact__item">
+        {%- if item.primary %}<strong>{{ item.primary }}</strong>{% endif %}
+        <span class="fact__meta">{{ item.secondary }}</span>
+      </p>
+      {%- endfor %}
+    </div>
+    {%- endfor %}
+  </div>
+</section>
+
+<!-- ===================== Recent writing ===================== -->
+{%- if site.posts.size > 0 %}
+<section class="section wrap" id="writing">
+  <p class="section__label">Recent writing</p>
+  <ul class="posts">
+    {%- for post in site.posts limit: 3 %}
+    <li class="posts__item">
+      <a class="posts__link" href="{{ post.url | relative_url }}">
+        <div>
+          <h3 class="posts__title">{{ post.title }}</h3>
+          <p class="posts__excerpt">{{ post.subtitle | default: post.excerpt | strip_html | truncate: 165 }}</p>
+        </div>
+      </a>
+    </li>
+    {%- endfor %}
+  </ul>
+  <p style="margin-top:1.5rem"><a class="btn" href="{{ '/blog/' | relative_url }}">All writing &rarr;</a></p>
+</section>
+{%- endif %}
+
+<!-- ===================== Contact ===================== -->
+<section class="section wrap" id="contact">
+  <p class="section__label">Contact</p>
+  <p class="contact__lede">{{ site.data.home.contact_lede }}</p>
+  <div class="actions">
+    <a class="btn btn--primary" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+    <a class="btn" href="{{ site.author.linkedin }}" rel="noopener">LinkedIn</a>
+  </div>
+</section>

@@ -1,0 +1,26 @@
+<header class="masthead">
+  <div class="wrap masthead__inner">
+    <a class="masthead__name" href="{{ '/' | relative_url }}">{{ site.author.name }}</a>
+
+    <nav class="nav" aria-label="Primary">
+      <a class="nav__deep" href="{{ '/#about' | relative_url }}">About</a>
+      <a class="nav__deep" href="{{ '/#experience' | relative_url }}">Experience</a>
+      <a class="nav__deep" href="{{ '/#work' | relative_url }}">Work</a>
+      <a href="{{ '/blog/' | relative_url }}"{% if page.nav == 'blog' %} aria-current="page"{% endif %}>Writing</a>
+      <a href="{{ '/#contact' | relative_url }}">Contact</a>
+
+      <button class="theme-toggle" type="button" id="theme-toggle"
+              aria-label="Switch between light and dark mode">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="1.7" stroke-linecap="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="4.2"/>
+          <path d="M12 2.6v2M12 19.4v2M2.6 12h2M19.4 12h2M5.3 5.3l1.5 1.5M17.2 17.2l1.5 1.5M18.7 5.3l-1.5 1.5M6.8 17.2l-1.5 1.5"/>
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M20.5 14.2A8.6 8.6 0 1 1 9.8 3.5a6.9 6.9 0 0 0 10.7 10.7z"/>
+        </svg>
+      </button>
+    </nav>
+  </div>
+</header>

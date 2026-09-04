@@ -1,0 +1,60 @@
+# ---------------------------------------------------------------------------
+# Site settings. Edit these first.
+# ---------------------------------------------------------------------------
+title: Simon Roberts
+tagline: Consultant, Transportation and Industrials
+description: >-
+  Simon Roberts is a consultant at Oliver Wyman in Toronto, working on operating
+  and commercial problems in transportation and industrials.
+
+# For a GitHub Pages *user site* the repo must be named <username>.github.io
+# and this url must match. Change if you move to a custom domain.
+url: "https://simon-roberts.github.io"
+baseurl: ""
+
+# ---------------------------------------------------------------------------
+# Identity / contact
+# ---------------------------------------------------------------------------
+author:
+  name: Simon Roberts
+  role: Management consultant
+  firm: Oliver Wyman
+  location: Toronto
+  email: simonneilroberts@gmail.com
+  linkedin: https://www.linkedin.com/in/simonnroberts
+  headshot: /assets/img/simon-roberts-oliver-wyman-2025-small.jpg
+
+# ---------------------------------------------------------------------------
+# Build settings. Do not change unless you know why.
+# ---------------------------------------------------------------------------
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: /blog/:title/
+paginate: false
+timezone: America/Toronto
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+feed:
+  path: /feed.xml
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .sass-cache
+  - .jekyll-cache

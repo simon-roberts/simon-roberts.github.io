@@ -1,0 +1,98 @@
+# ---------------------------------------------------------------------------
+# Experience, as a list of groups rendered in order.
+#
+# Per group:
+#   sublabel:  optional heading above the group (the first group has none)
+#   compact:   true for the quieter, tighter treatment
+#   items:     the roles, newest first
+#
+# Per role: dates, title, org, location are all optional.
+#   notes:   a list of bullets  (used in the full treatment)
+#   summary: one sentence       (used in the compact treatment)
+#
+# To add a group later, for example personal projects, copy the shape of the
+# "International development" block below and give it a new sublabel.
+# ---------------------------------------------------------------------------
+
+groups:
+  - items:
+      - dates: "January 2025 to present"
+        title: Consultant
+        org: Oliver Wyman
+        location: Toronto
+        notes:
+          - >-
+            Completed four commercial due diligence cases for private capital
+            investors across software, industrials and energy.
+          - >-
+            Lead full-cycle data analytics workstreams covering pipelines,
+            forecasting and diversion modelling, including studies submitted to
+            U.S. transportation regulators.
+          - >-
+            Work spans operating model and organization design, pricing, and
+            cost reduction across rail, automotive and energy clients.
+
+      - dates: "May 2024 to October 2024"
+        title: Research Assistant
+        org: Templeton Research
+        location: Vancouver
+        notes:
+          - >-
+            Conducted 10+ strategic due diligence cases for top-tier hedge funds
+            and law firms, using open-source intelligence, public and
+            proprietary records, social media intelligence and source enquiries
+            in global contexts.
+          - >-
+            Compiled a North American OSINT guide for a 50+ person team,
+            covering court records, property records, licensure verification and
+            business registration across 10+ jurisdictions.
+
+  - sublabel: International development
+    compact: true
+    items:
+      - dates: "September 2023 to March 2024"
+        title: Social Entrepreneurship Fellow
+        org: YCI HerStart Innovate the Future
+        location: Zanzibar, Tanzania
+        summary: >-
+          Built a pitch competition and grant program with Training of Trainers
+          rollouts across Tanzania, Ghana and Uganda, and the monitoring and
+          evaluation plan behind a digital skills curriculum running to 2028.
+
+  - sublabel: Earlier roles
+    compact: true
+    items:
+      - dates: "May 2022 to August 2022"
+        title: Management Consultant, Co-op
+        org: KPMG
+        location: Vancouver
+        summary: >-
+          Mine planning analytics and a Power BI dashboard for a Fortune 500
+          miner, plus operating model design for its 20-person data science
+          team.
+
+      - dates: "January 2022 to April 2022"
+        title: Data Analyst, Co-op
+        org: RBCx
+        location: Toronto
+        summary: >-
+          Built a customer retention metric in SQL and Tableau across 50,000+
+          small business accounts, and ran survival modelling seminars that
+          became a standing service in the ventures analytics team.
+
+      - dates: "January 2021 to August 2021"
+        title: Software Developer and Business Systems Analyst, Co-op
+        org: CIBC
+        location: Toronto
+        summary: >-
+          Built an internal web scraping application to monitor competitor rates
+          and offers, cutting manual research time by 90%, and automated
+          requirements sign-off with low-code workflow tools.
+
+      - dates: "June 2020 to September 2020"
+        title: Business Analyst, Co-op
+        org: AVA Technologies
+        location: Vancouver
+        summary: >-
+          Financial models and pitch materials built with the founders,
+          supporting acceptance into a Google for Startups Canada accelerator.

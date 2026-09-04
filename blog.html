@@ -1,0 +1,28 @@
+---
+layout: default
+title: Writing
+permalink: /blog/
+nav: blog
+---
+
+<header class="pagehead wrap">
+  <h1 class="pagehead__title">Writing</h1>
+  <p class="pagehead__lede">{{ page.lede | default: "Notes on transportation, operations and the analytics behind them." }}</p>
+</header>
+
+<div class="wrap">
+  <ul class="posts">
+    {%- for post in site.posts %}
+    <li class="posts__item">
+      <a class="posts__link" href="{{ post.url | relative_url }}">
+        <div>
+          <h2 class="posts__title">{{ post.title }}</h2>
+          <p class="posts__excerpt">{{ post.subtitle | default: post.excerpt | strip_html | truncate: 165 }}</p>
+        </div>
+      </a>
+    </li>
+    {%- else %}
+    <li class="posts__item"><p style="padding:1.4rem 0;color:var(--ink-soft)">No posts yet.</p></li>
+    {%- endfor %}
+  </ul>
+</div>
