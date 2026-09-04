@@ -35,6 +35,11 @@ kramdown:
 permalink: /blog/:title/
 timezone: America/Toronto
 
+# The github-pages gem defaults to theme: jekyll-theme-primer when no theme
+# is set, and that theme ships its own assets/css/style.css which collides
+# with ours. Disable it explicitly.
+theme: null
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
