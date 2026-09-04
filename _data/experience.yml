@@ -32,18 +32,28 @@ groups:
             Work spans operating model and organization design, pricing, and
             cost reduction across rail, automotive and energy clients.
 
+      - dates: "October 2024 to January 2025"
+        title: AI Tutor
+        org: xAI
+        location: Remote
+        notes:
+          - >-
+            Trained and evaluated frontier language models as a human data
+            specialist, rating and ranking responses against detailed rubrics
+            and writing structured feedback on reasoning errors.
+
       - dates: "May 2024 to October 2024"
         title: Research Assistant
         org: Templeton Research
         location: Vancouver
         notes:
           - >-
-            Conducted 10+ strategic due diligence cases for top-tier hedge funds
+            Conducted 10+ enhanced due diligence cases for top-tier hedge funds
             and law firms, using open-source intelligence, public and
             proprietary records, social media intelligence and source enquiries
             in global contexts.
           - >-
-            Compiled a North American OSINT guide for a 20+ person team,
+            Compiled a North American OSINT guide,
             covering court records, property records, licensure verification and
             business registration across 10+ jurisdictions.
 
@@ -78,7 +88,7 @@ groups:
           became a standing service in the ventures analytics team.
 
       - dates: "January 2021 to August 2021"
-        title: Software Developer and Business Systems Analyst, Co-op
+        title: Business Systems Analyst, Co-op
         org: CIBC
         location: Toronto
         summary: >-
@@ -87,7 +97,7 @@ groups:
           requirements sign-off with low-code workflow tools.
 
       - dates: "June 2020 to September 2020"
-        title: Business Analyst, Co-op
+        title: Operations Analyst, Co-op
         org: AVA Technologies
         location: Vancouver
         summary: >-

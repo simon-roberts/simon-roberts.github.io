@@ -3,26 +3,20 @@
 # ---------------------------------------------------------------------------
 
 lede: >-
-  Consultant at Oliver Wyman in Toronto. I work on operating and commercial
-  problems in transportation and industrials, and build the analysis behind
-  them.
+  Consultant at Oliver Wyman, based in Toronto. I work on strategic engagements, primarily in the transportation and industrials industries.
 
 about:
   - >-
-    My work sits between operations and economics. Recent engagements cover
-    freight diversion and network analysis, demand forecasting and pricing,
+    Recent engagements cover freight diversion and network analysis, demand forecasting and pricing,
     operating model and organization design, and commercial due diligence for
     private capital investors.
   - >-
-    I studied business and computer science together at UBC, so I usually build
-    the analysis myself rather than specifying it for someone else. On most
-    engagements I own the data pipeline and the model underneath the
-    recommendation.
+    I hold a Bachelor of Commerce in business and Computer Science from the University of British Columbia.
 
 work_note: >-
   Client work is confidential, so engagements are described by sector rather
   than by name. Tags show the methods and tools each one used.
 
 contact_lede: >-
-  Happy to talk about transportation, operations and analytics, or about
+  Happy to talk about transportation, analytics, strategy, or about
   consulting recruiting in Canada.
