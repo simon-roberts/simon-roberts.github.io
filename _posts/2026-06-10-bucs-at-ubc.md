@@ -1,31 +1,32 @@
 ---
-title: "UBC BUCS: A Retrospective"
+title: "Looking back on UBC BUCS"
 subtitle: "A combined business and computer science degree is a curated slice of each. The curation is the whole story."
 date: 2026-06-10
 ---
 
 BUCS is UBC's combined major in business and computer science. In practice it's most of the
 Sauder commerce curriculum plus a selection of the core CS curriculum, and that selection is the
-part worth understanding before you commit to it. I finished in 2023. This is what held up
-and what didn't.
+part worth understanding before you commit to it. I finished in 2023, and a few years on, this
+is my honest take on what held up and what didn't.
 
 ## The technical outs, and which ones to take
 
-The CS in BUCS leans applied. You get software construction, algorrithms, and databases, and you'll write
-plenty of code. What you largely don't get is the systems core or the mathematical/statistical rigour if you choose to avoid it
-, and the curriculum gives you more ways to avoid it than face it head-on.
+The CS in BUCS leans applied. You get software construction, algorithms and databases, and you'll
+write plenty of code. What you can largely avoid is the systems core and the mathematical and
+statistical rigour, and the curriculum gives you more ways to avoid them than to face them
+head-on.
 
-To be frank, **CPSC 213, Introduction to Computer Systems** nearly ended me, mostly the memory management and the assembly
-labs, and I took it Credit/D/Fail during the term everything moved online. I'd like to
+I'll be honest: **CPSC 213, Introduction to Computer Systems** nearly ended me, mostly the
+memory management and the assembly labs, and I took it Credit/D/Fail during the term everything moved online. I'd like to
 describe that as a principled decision about pandemic learning conditions. It wasn't. I also
-CR'd **CPSC 221, Basic Algorithms and Data Structures**. BUCS let me skip **CPSC 313, Computer Hardware and Operating Systems** outright,
-so I did.
+CR'd **CPSC 221, Basic Algorithms and Data Structures**. And BUCS let me skip **CPSC 313,
+Computer Hardware and Operating Systems** outright, so I did.
 
-Two of those three were fine. CPSC 221 one wasn't, and I knew it at the time, because it's the
-course **CPSC 320, Intermediate Algorithm Design and Analysis** leans on. So I went back at it: hours in the library with a
-pencil, working through graph traversal, backtracking, dynamic programming, and
+Two of those three were fine. CPSC 221 wasn't, and I knew it at the time, because it's the
+course **CPSC 320, Intermediate Algorithm Design and Analysis** leans on. So I went back to it:
+hours in the library with a pencil, working through graph traversal, backtracking, dynamic programming, and
 NP-completeness proofs, slowly and on paper, because that was the only way it was going to
-stick. That's the reason I did well in CPSC 320 later, and the reason the gap closed.
+stick. That's why I did well in CPSC 320 later, and why the gap closed.
 
 You'll be offered several of these outs. They aren't equally cheap, and nobody but you is
 keeping track of which ones you took.
@@ -34,9 +35,9 @@ keeping track of which ones you took.
 
 You'll hear that the qualitative COMM courses are impossible to ace, that 80 is roughly the
 ceiling, and that the quantitative courses are where the high marks live. That's broadly
-right, and it's an incomplete picture.
+right, but it's an incomplete picture.
 
-The more useful frame is variance. Commerce courses tend to cluster around an B+ average
+The more useful frame is variance. Commerce courses tend to cluster around a B+ average
 without much incremental effort, which makes them predictable. Several CS courses have fat
 tails. Put in the hours and you can score very well; don't, and the course will take a real
 bite out of your GPA. Difficulty isn't quite the variable. Risk is.
@@ -53,8 +54,8 @@ scripting and analysis from 330 and the SQL from 304 run through most of my work
 durable part is the habit of getting data into a shape where a question can be answered at
 all. The machine learning specifically matters less than that.
 
-**COMM 438, Management of Information Systems**, taught by a former Accenture MD who took his students more seriously than was
-standard. It's where I learned to read a case like a technology consultant rather than a
+**COMM 438, Management of Information Systems**, taught by a former Accenture MD who took his
+students more seriously than most. It's where I learned to read a case like a technology consultant rather than a
 strategy one. The case that landed was Target's entry into Canada, usually filed as a retail
 strategy failure, though the reported account is largely a systems story. A new ERP was stood
 up at speed on item data that hadn't been validated, replenishment broke, and shelves sat
@@ -66,7 +67,7 @@ it, and who is writing the specification.
 
 ## You'll be doing this with AI in the room
 
-I wasn't, and that's the biggest difference between my degree and yours.
+I wasn't, and that's probably the biggest difference between my degree and yours.
 
 I use Claude for much of the SQL and Python I write now. That's simply how the work happens.
 But the problem sets did something for me that I'm not sure they'll do for you. With no way
@@ -87,8 +88,8 @@ and defended well. Where it costs is graduate school, as a lot of master's progr
 science and operations research list both as prerequisites, so I'd be applying from behind if
 I wanted one. I don't, currently. It's still a sore spot, which probably tells you something.
 
-Take the math anyway. These courses are the only requirements I'd add back to a program I otherwise think
-is well designed.
+So take the math anyway. These are the only requirements I'd add back to a program I otherwise
+think is well designed.
 
 ## Where people actually end up
 
@@ -122,11 +123,12 @@ Sauder (structuring a problem, running a room, writing something a client will a
 show up just as often. Very few jobs ask for exactly this pairing by name, and a lot of jobs
 turn out to want it.
 
-It travels. My degree has been sufficient justification for TN status every time I've needed
-it, which matters more than you'd guess if you're Canadian and your work takes you south. Many of my
-colleagues have been admitted under CSA and Engineer visas as well, indicating that it's versatile.
+It travels, too. My degree has been enough for TN status every time I've needed it, which
+matters more than you'd guess if you're Canadian and your work takes you south. Plenty of my
+colleagues have qualified under the Computer Systems Analyst and Engineer categories as well,
+so it's more versatile than it looks on paper.
 
-And the people. My closest friends came out of this program, from both sides of it. That
+And then there are the people. My closest friends came out of this program, from both sides of it. That
 wasn't proximity. It was working in groups on problems that were hard and varied enough that
 you learn what somebody is actually like: who does the work, who thinks clearly under time
 pressure, who tells you when your idea is bad. The program throws you into that with two
