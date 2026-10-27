@@ -22,15 +22,26 @@ groups:
         location: Toronto
         notes:
           - >-
-            Completed commercial due diligence cases for private capital
-            investors across software, industrials and energy.
+            Delivered buy- and sell-side due diligence on private equity
+            engagements (targets up to $675M) across software, industrials and
+            consumer, including financial and operational modelling. One
+            sell-side mandate closed in a strategic roll-up.
           - >-
-            Lead full-cycle data analytics workstreams covering pipelines,
-            forecasting and diversion modelling, including studies submitted to
-            U.S. transportation regulators.
+            Led full-cycle data analytics workstreams on the traffic study for
+            an $85B U.S. rail merger filed with the Surface Transportation
+            Board, projecting 2.1M truckloads diverted to rail annually.
           - >-
-            Work spans operating model and organization design, pricing, and
-            cost reduction across rail, automotive, energy and software clients.
+            Led a client success turnaround for a compliance software company,
+            redesigning the operating model and leadership organization behind
+            a $50M+ renewals book. The CEO acted on my recommendation to bring
+            in new go-to-market leadership.
+          - >-
+            Cut model development time by up to 90% using Claude Code and
+            AI-assisted code review, and managed and coached three junior
+            colleagues in SQL and Python to meet regulatory deadlines.
+          - >-
+            Lead campus recruiting at UBC and U of T, engaging 100+ students at
+            info sessions and case competitions.
 
       - dates: "October 2024 to January 2025"
         title: AI Tutor
@@ -48,13 +59,12 @@ groups:
         location: Vancouver
         notes:
           - >-
-            Conducted 10+ enhanced due diligence cases for top-tier hedge funds
-            and law firms, using open-source intelligence, public and
-            proprietary records, social media intelligence and source enquiries
-            in global contexts.
+            Conducted 10+ enhanced due diligence cases on management and
+            operations for U.S. activist investors, hedge funds and law firms
+            across SaaS, financial services, automotive and industrials.
           - >-
-            Compiled a North American OSINT guide covering court records, property records, licensure verification and
-            business registration across 10+ jurisdictions.
+            Compiled a North American OSINT reference document spanning 10+
+            jurisdictions for a 20+ person team.
 
   - sublabel: Earlier roles
     compact: true
@@ -64,17 +74,18 @@ groups:
         org: YCI
         location: Zanzibar, Tanzania
         summary: >-
-          Built a pitch competition and grant program with Training of Trainers
-          rollouts across Tanzania, Ghana and Uganda, and the monitoring and
-          evaluation plan behind a digital skills curriculum running to 2028.
+          Designed and ran a pitch competition awarding $1K to $5K CAD grants to
+          early-stage social enterprises, and trained trainers to roll it out
+          across Tanzania, Ghana and Uganda, reaching 100+ founders.
 
       - dates: "May 2022 to August 2022"
         title: Management Consultant, Co-op
         org: KPMG
         location: Vancouver
         summary: >-
-          Mine planning analytics and a Power BI dashboard for a Fortune 500
-          miner, plus operating model design for its 20-person data and analytics
+          Mapped the competitive landscape of 6 warehouse management systems and
+          12 autonomous mobile robot providers for a Fortune 500 tech company,
+          and redesigned the operating model for a 20+ person data science
           team.
 
       - dates: "January 2022 to April 2022"
@@ -82,9 +93,10 @@ groups:
         org: RBCx
         location: Toronto
         summary: >-
-          Built a customer retention metric in SQL and Tableau across 50,000+
-          small business accounts, and ran survival modelling seminars that
-          became a standing service in the ventures analytics team.
+          Designed a customer retention metric (SQL, survival modelling,
+          Tableau) across 50,000+ small business accounts at Ownr, taught it to
+          50 attendees, and saw it adopted as a core service by RBCx's ventures
+          analytics centre of excellence.
 
       - dates: "January 2021 to August 2021"
         title: Business Systems Analyst, Co-op
@@ -93,12 +105,15 @@ groups:
         summary: >-
           Built an internal web scraping application to monitor competitor rates
           and offers, cutting manual research time by 90%, and automated
-          requirements sign-off with low-code workflow tools.
+          requirements sign-off in Power Automate, reducing request turnaround
+          by 75%.
 
       - dates: "June 2020 to September 2020"
-        title: Operations Analyst, Co-op
+        title: Business Analyst, Co-op
         org: AVA Technologies
         location: Vancouver
         summary: >-
-          Financial models and pitch materials built with the founders,
-          supporting acceptance into a Google for Startups Canada accelerator.
+          Built financial models and pitch decks with the founders, supporting
+          acceptance into the Google for Startups Canada accelerator, and
+          implemented OpenBOM with engineering to streamline purchasing and
+          production.

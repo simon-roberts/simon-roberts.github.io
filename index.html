@@ -19,6 +19,12 @@ title: null
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-.95 1.83-1.95 3.76-1.95C20.4 8.75 21 11 21 14v7h-4v-6.2c0-1.48-.03-3.4-2.07-3.4-2.07 0-2.39 1.62-2.39 3.29V21H9z"/></svg>
           LinkedIn
         </a>
+        {%- if site.author.resume %}
+        <a class="btn" href="{{ site.author.resume | relative_url }}" download>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.5v11"/><path d="m7.5 10 4.5 4.5 4.5-4.5"/><path d="M4.5 16.5v3h15v-3"/></svg>
+          Resume (PDF)
+        </a>
+        {%- endif %}
         <a class="btn" href="{{ '/blog/' | relative_url }}">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3.5h9.5L19 8v12.5H5z"/><path d="M8.5 12.5h7M8.5 16h5"/></svg>
           Writing
@@ -144,5 +150,8 @@ title: null
   <div class="actions">
     <a class="btn btn--primary" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
     <a class="btn" href="{{ site.author.linkedin }}" rel="noopener">LinkedIn</a>
+    {%- if site.author.resume %}
+    <a class="btn" href="{{ site.author.resume | relative_url }}" download>Download resume (PDF)</a>
+    {%- endif %}
   </div>
 </section>
