@@ -11,9 +11,9 @@ and what didn't.
 
 ## The technical outs, and which ones to take
 
-The CS in BUCS leans applied. You get software construction, algorrithms, and databases, and you'll write
-plenty of code. What you largely don't get is the systems core or the mathematical/statistical rigour if you choose to avoid it
-, and the curriculum gives you more ways to avoid it than face it head-on.
+The CS in BUCS leans applied. You get software construction, algorithms, and databases, and you'll write
+plenty of code. What you largely don't get is the systems core or the mathematical/statistical rigour if you choose to avoid it,
+and the curriculum gives you more ways to avoid it than face it head-on.
 
 To be frank, **CPSC 213, Introduction to Computer Systems** nearly ended me, mostly the memory management and the assembly
 labs, and I took it Credit/D/Fail during the term everything moved online. I'd like to

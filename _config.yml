@@ -24,6 +24,9 @@ author:
   linkedin: https://www.linkedin.com/in/simonnroberts
   headshot: /assets/img/simon-roberts-oliver-wyman-2025-small.jpg
 
+# Default image for link previews (LinkedIn, Slack, iMessage).
+image: /assets/img/simon-roberts-oliver-wyman-2025-small.jpg
+
 # ---------------------------------------------------------------------------
 # Build settings. Do not change unless you know why.
 # ---------------------------------------------------------------------------

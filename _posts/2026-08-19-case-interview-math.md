@@ -2,6 +2,7 @@
 title: "Getting fast at case interview math"
 subtitle: "Mental math rarely wins an interview on its own, but slow math will cost you the rest of the case."
 date: 2026-08-19
+published: false
 ---
 
 <!-- DRAFT. I wrote this from a topic list, so the structure is here but the
