@@ -23,6 +23,8 @@ author:
   email: simonneilroberts@gmail.com
   linkedin: https://www.linkedin.com/in/simonnroberts
   headshot: /assets/img/simon-roberts-oliver-wyman-2025-small.jpg
+  # PDF resume offered as a download. Delete this line to hide the buttons.
+  resume: /assets/files/Simon_Roberts_Resume.pdf
 
 # Default image for link previews (LinkedIn, Slack, iMessage).
 image: /assets/img/simon-roberts-oliver-wyman-2025-small.jpg

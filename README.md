@@ -36,7 +36,7 @@ Every push to `main` rebuilds and republishes automatically.
 
 | File | What is in it |
 |---|---|
-| `_config.yml` | Your name, role, email, LinkedIn, site URL |
+| `_config.yml` | Your name, role, email, LinkedIn, resume PDF path, site URL |
 | `_data/home.yml` | Homepage intro, About paragraphs, contact line |
 | `_data/experience.yml` | Roles, grouped into tiers |
 | `_data/projects.yml` | Anonymised case studies and their tags |

@@ -11,19 +11,19 @@
 - label: Education
   items:
     - primary: BCom, Business and Computer Science (Honours)
-      secondary: "UBC Sauder School of Business · 2018 to 2023 · Co-op · GPA 86.3%, GMAT 730"
+      secondary: "UBC Sauder School of Business · 2018 to 2023 · Co-op · GPA 86.3%, GMAT 730 (96th percentile)"
     - primary: Activities
-      secondary: "Strategy Consulting Mentorship Program · UBC LIFT: Africa · 180 Degrees Consulting"
+      secondary: "Venture Capital Investment Competition · Strategy Consulting Mentorship Program · UBC LIFT: Africa · Jazz Club"
 
 - label: Technical
   items:
     - primary: Analysis
-      secondary: "Python · R · SQL"
+      secondary: "Python · SQL · Power Query · Databricks"
     - primary: Reporting
-      secondary: "BI dashboards and executive reporting"
+      secondary: "Power BI"
     - primary: Engineering
-      secondary: "Data pipelines · Version control · Low-code workflow automation"
+      secondary: "Git · Claude Code"
 
 - label: Sectors
   items:
-    - secondary: "Freight rail · Automotive · Energy · Mining · Software · Private equity · Financial services"
+    - secondary: "Freight rail · Automotive · Energy · Industrials · Mining · Software · Consumer · Private equity · Financial services"
