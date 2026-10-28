@@ -4,8 +4,9 @@
 title: Simon Roberts
 tagline: Consultant, Transportation and Industrials
 description: >-
-  Simon Roberts is a consultant at Oliver Wyman in Toronto, working on operating
-  and commercial problems in transportation and industrials.
+  Simon Roberts is a consultant at Oliver Wyman in Toronto, focused on rail and
+  freight analytics and private equity due diligence across transportation and
+  industrials.
 
 # For a GitHub Pages *user site* the repo must be named <username>.github.io
 # and this url must match. Change if you move to a custom domain.
@@ -20,14 +21,14 @@ author:
   role: Management consultant
   firm: Oliver Wyman
   location: Toronto
-  email: simonneilroberts@gmail.com
+  # Named contact_email rather than email so jekyll-feed does not print it in
+  # feed.xml. The site splits it so the full address is never in the HTML.
+  contact_email: simonneilroberts@gmail.com
   linkedin: https://www.linkedin.com/in/simonnroberts
   headshot: /assets/img/simon-roberts-oliver-wyman-2025-small.jpg
   # PDF resume offered as a download. Delete this line to hide the buttons.
   resume: /assets/files/Simon_Roberts_Resume.pdf
 
-# Default image for link previews (LinkedIn, Slack, iMessage).
-image: /assets/img/simon-roberts-oliver-wyman-2025-small.jpg
 
 # ---------------------------------------------------------------------------
 # Build settings. Do not change unless you know why.
@@ -54,6 +55,12 @@ feed:
   path: /feed.xml
 
 defaults:
+  - scope:
+      path: ""
+    values:
+      # Image for link previews (LinkedIn, Slack, iMessage). A page can
+      # override it with its own image: in front matter.
+      image: /assets/img/simon-roberts-oliver-wyman-2025-small.jpg
   - scope:
       path: ""
       type: posts
