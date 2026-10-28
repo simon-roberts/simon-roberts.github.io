@@ -12,9 +12,9 @@
   employer: Oliver Wyman
   title: Traffic study for an $85B proposed transaction
   summary: >-
-    Contributed across multiple phases of the engagement and led full-cycle data
-    analytics workstreams supporting rail-to-rail and truck-to-rail freight
-    traffic studies, submitted to the Surface Transportation Board.
+    Led full-cycle data analytics workstreams across multiple phases of the
+    engagement, supporting rail-to-rail and truck-to-rail freight traffic
+    studies submitted to the Surface Transportation Board.
   outcome: >-
     Projected 2.1M truckloads diverted to rail annually.
   tags: [Python, SQL, Network analysis, Econometrics, Regulatory]
@@ -72,15 +72,6 @@
     ]
   outcome: One sell-side mandate closed in a strategic roll-up.
 
-- client: Various
-  employer: Templeton Research
-  title: Operational due diligence on management and operations
-  summary: >-
-    Conducted 10+ enhanced due diligence cases on management and operations for
-    U.S. activist investors, hedge funds and law firms across SaaS, financial
-    services, automotive and industrials.
-  tags: [Enhanced due diligence, Management assessment, OSINT]
-
 - client: A Fortune 500 mining company
   employer: KPMG
   title: Target operating model for a data and analytics team
@@ -88,8 +79,6 @@
     Designed a target operating model for a 20+ person data science
     function following a set of stakeholder departures, and recommended Scaled
     Agile Framework over the alternatives.
-  outcome: >-
-    Streamlined decision-making and strengthened the client's data capabilities.
   tags: [Target operating model, Data science, Organization design, SAFe]
 
 - client: A Fortune 500 technology company

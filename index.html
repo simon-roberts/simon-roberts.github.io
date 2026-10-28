@@ -11,7 +11,7 @@ title: null
       <h1 class="hero__title">{{ site.author.name }}</h1>
       <p class="hero__lede">{{ site.data.home.lede }}</p>
       <div class="actions">
-        <a class="btn btn--primary" href="mailto:{{ site.author.email }}">
+        <a class="btn btn--primary" {% include email-attrs.html %}>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2"/><path d="m3 6 9 6.5L21 6"/></svg>
           Get in touch
         </a>
@@ -148,7 +148,7 @@ title: null
   <p class="section__label">Contact</p>
   <p class="contact__lede">{{ site.data.home.contact_lede }}</p>
   <div class="actions">
-    <a class="btn btn--primary" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+    <a class="btn btn--primary" {% include email-attrs.html %} data-email-show>Email me</a>
     <a class="btn" href="{{ site.author.linkedin }}" rel="noopener">LinkedIn</a>
     {%- if site.author.resume %}
     <a class="btn" href="{{ site.author.resume | relative_url }}" download>Download resume (PDF)</a>

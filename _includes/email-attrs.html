@@ -1,0 +1,6 @@
+{%- comment -%}
+  Attributes for an email link. The address is split so it never appears whole
+  in the HTML; assets/js/email.js joins it and sets the mailto in the browser.
+{%- endcomment -%}
+{%- assign email_parts = site.author.contact_email | split: '@' -%}
+href="{{ '/#contact' | relative_url }}" data-email-user="{{ email_parts[0] }}" data-email-domain="{{ email_parts[1] }}"
