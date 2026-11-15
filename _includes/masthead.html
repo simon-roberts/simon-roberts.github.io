@@ -6,7 +6,9 @@
       <a class="nav__deep" href="{{ '/#about' | relative_url }}">About</a>
       <a class="nav__deep" href="{{ '/#experience' | relative_url }}">Experience</a>
       <a class="nav__deep" href="{{ '/#work' | relative_url }}">Work</a>
+      {%- if site.posts.size > 0 %}
       <a href="{{ '/blog/' | relative_url }}"{% if page.nav == 'blog' %} aria-current="page"{% endif %}>Writing</a>
+      {%- endif %}
       <a href="{{ '/#contact' | relative_url }}">Contact</a>
 
       <button class="theme-toggle" type="button" id="theme-toggle"

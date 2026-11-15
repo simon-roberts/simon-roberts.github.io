@@ -25,10 +25,12 @@ title: null
           Resume (PDF)
         </a>
         {%- endif %}
+        {%- if site.posts.size > 0 %}
         <a class="btn" href="{{ '/blog/' | relative_url }}">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3.5h9.5L19 8v12.5H5z"/><path d="M8.5 12.5h7M8.5 16h5"/></svg>
           Writing
         </a>
+        {%- endif %}
       </div>
     </div>
     {%- if site.author.headshot %}
@@ -124,7 +126,7 @@ title: null
 </section>
 
 <!-- ===================== Recent writing ===================== -->
-{%- if site.posts.size > 0 %}
+        {%- if site.posts.size > 0 %}
 <section class="section wrap" id="writing">
   <p class="section__label">Recent writing</p>
   <ul class="posts">
